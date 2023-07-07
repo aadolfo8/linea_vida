@@ -1,0 +1,28 @@
+.about {
+    background-image: url(https://s2.ppllstatics.com/diariovasco/www/multimedia/202207/05/media/cortadas/playa_de_Itzurun-ku1B-RnPfrysLsTPFA4hBccfD3oI-1248x770@Diario%20Vasco-DiarioVasco.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 90px 0;
+}
+
+.about .titlepage::before {
+    border: #fff solid 5px;
+}
+
+.about .titlepage {
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
+
+.about .titlepage h2 {
+    color: #fff;
+}
+
+.about .titlepage p {
+    line-height: 28px;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 17px;
+}
