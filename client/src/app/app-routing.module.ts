@@ -6,7 +6,7 @@ import { CarouselMesesComponent } from './pages/carousel-meses/carousel-meses.co
 import { CarouselEventosComponent } from './pages/carousel-eventos/carousel-eventos.component';
 
 const routes: Routes = [
-  { path: 'linea_vida', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: PaginaPrincipalComponent},
   { path: 'years', component: CarouselAyosComponent},
   { path: 'meses', component: CarouselMesesComponent},

@@ -10,9 +10,7 @@ import { PaginaEdicionComponent } from './pages/pagina-edicion/pagina-edicion.co
 import { CarouselAyosComponent } from './pages/carousel-ayos/carousel-ayos.component';
 import { CarouselMesesComponent } from './pages/carousel-meses/carousel-meses.component';
 import { CarouselEventosComponent } from './pages/carousel-eventos/carousel-eventos.component';
-
-import { SwiperModule } from "swiper/angular";
-
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [

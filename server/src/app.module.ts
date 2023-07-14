@@ -9,7 +9,7 @@ import { ConfigModule } from '@nestjs/config';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', '..', 'client', 'dist', 'client'),
+      rootPath: join(__dirname, '..', '..', 'dist', 'client'),
     }),
 
     ConfigModule.forRoot({

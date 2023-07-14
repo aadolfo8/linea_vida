@@ -13,7 +13,6 @@ import SwiperCore , {
   Controller,
 } from 'swiper';
 import { BehaviorSubject } from "rxjs";
-import Swiper from "swiper/types/swiper-class";
 
 SwiperCore.use([
   Navigation,
@@ -92,7 +91,7 @@ export class PrincipalCarouselComponent implements OnInit{
   };
 
   slides = Array.from({ length: 5 }).map((el, index) => `Slide ${index + 1}`);
-  virtualSlides = Array.from({ length: 600 }).map((el, index) => `Slide ${index + 1}`);
+  virtualSlides = Array.from({ length: 10 }).map((el, index) => `Slide ${index + 1}`);
 
   log(log: string) {
     // console.log(string);
